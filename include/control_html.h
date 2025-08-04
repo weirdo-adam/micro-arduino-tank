@@ -1,7 +1,6 @@
 #ifndef CONTROL_HTML_H
 #define CONTROL_HTML_H
 
-// 包含HTML内容
 const char control_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE html>
 <html lang="zh">
