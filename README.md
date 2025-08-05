@@ -25,8 +25,8 @@
 
 ### 1. 环境准备
 
-- Clion IDE
-- Platformio Cli
+- Clion
+- [Platformio CLi](https://docs.platformio.org/en/latest/core/index.html)
 - 安装依赖库：
   ```bash
   ESP8266 Core (3.1.2)
@@ -38,7 +38,7 @@
 ### 2. 烧录步骤
 
 1. 克隆本仓库
-2. 用Clion IDE打开`main.cpp`
+2. 用Clion打开`main.cpp`
 3. 选择开发板：`NodeMCU 1.0 (ESP-12E Module)`
 4. 设置上传速度：`115200`
 5. 点击上传
