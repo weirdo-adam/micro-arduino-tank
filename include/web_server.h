@@ -22,7 +22,7 @@ public:
                 this->servoCtrl->setRotation(server.arg("rotation").toInt());
                 server.send(200, "text/plain", "OK");
             } else if (server.hasArg("elevation")) {
-                this->servoCtrl->setElevation(server.arg("elevation").toInt());
+                this->servoCtrl->setElevation(server.arg("elevation").toInt() + 90);
                 server.send(200, "text/plain", "OK");
             } else {
                 server.send(400, "text/plain", "Bad Request");

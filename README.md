@@ -49,11 +49,11 @@
    ```
 2. 构建并上传：
    ```bash
-   pio run -t upload
+   pio run -t upload -e nodemcuv2
    ```
-3. 监控串口输出：
+3. 上传并监控串口输出：
    ```bash
-   pio device monitor
+   pio run -t upload -t monitor -e nodemcuv2
    ```
 
 #### 通过 Arduino IDE
