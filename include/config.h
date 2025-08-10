@@ -4,7 +4,7 @@
 #pragma once
 
 // 引脚定义
-const int TURRET_ROTATION_PIN = D2; // 炮台旋转舵机引脚
+const int TURRET_ROTATION_PIN = D3; // 炮台旋转舵机引脚
 const int CANNON_ELEVATION_PIN = D4; // 炮筒俯仰舵机引脚
 
 // 控制参数
